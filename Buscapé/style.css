@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f2f2f2;
+}
+.container {
+    margin: 0 auto 0;
+    width: 1600px;
+}
+
+#logo {
+    width: 160px;
+    height: 160px;
+    padding-left: 30px;
+}
+
+#logo-menu {
+    display: flex;
+    width: 80px;
+    align-items: center;
+}
+
+.main-bar {
+    height: 150px;
+    background-color: #ffcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-bar--items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 1600px;
+}
+.main-bar--logo{
+    align-self: flex-start;
+    margin-left: -80px;
+}
+.main-bar--search{
+    margin-left: -300px
+}
+
+#input-search{
+    padding: 3px;
+    height: 40px;
+    width: 600px;
+    border: none;
+}
+
+#lupa {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+}
+.models {
+    font-family: 'Noto Sans', sans-serif; 
+    background-color:#f2f2f2;
+  }
+  
+  .product-item {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+ 
+  .product-item--name{
+      font-size: 30px;
+      color: #444444;
+      font-family: 'Noto Sans', sans-serif; 
+  } 
+
+
+  .product-item--installments, .product-item--installmentValue{
+    color: #22b14c;
+    font-family: 'Noto Sans', sans-serif; 
+}
+  .product-item--installments {
+      font-size: 30px;
+  }
+
+  .product-item--installmentValue {
+      font-size: 35px;
+  }
+  
+  .product-item--instalmentsValue{
+    color: #444444;
+  }
+  .product-item--instalmentsValueSpan {
+      color: #22b14c;
+  }
+
+  .product-item--addcart {
+      background-color: #22b14c;
+      font-size: 18px;
+      width: 200px;
+      height: 40px;
+      padding: 10px;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+  }
+
+  .product-item--gallery {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+  }
+  .product-item--img img {
+    width: 100px;
+    height: 100px;
+  }
